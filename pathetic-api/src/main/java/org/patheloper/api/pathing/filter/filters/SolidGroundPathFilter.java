@@ -1,10 +1,11 @@
 package org.patheloper.api.pathing.filter.filters;
 
-import lombok.NonNull;
-import org.patheloper.api.pathing.filter.PathValidationContext;
 import org.patheloper.api.pathing.filter.PathFilter;
+import org.patheloper.api.pathing.filter.PathValidationContext;
 import org.patheloper.api.snapshot.SnapshotManager;
 import org.patheloper.api.wrapper.PathBlock;
+
+import lombok.NonNull;
 
 /**
  * A PathFilter implementation that determines if a path is on solid ground.

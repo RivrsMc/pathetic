@@ -7,3 +7,9 @@ dependency-reduced-pom.xml
 /javadoc/
 
 pathetic-api/target/
+
+pathetic-nms/target/
+
+pathetic-model/target/
+
+pathetic-mapping/target/

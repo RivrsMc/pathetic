@@ -15,7 +15,6 @@ public class WaterPathFilter implements PathFilter {
     SnapshotManager snapshotManager = pathValidationContext.getSnapshotManager();
     PathPosition pathPosition = pathValidationContext.getPosition();
 
-    return snapshotManager.getBlock(pathPosition).getBlockInformation().getMaterial()
-        == Material.WATER;
+    return snapshotManager.getBlock(pathPosition).getBlockInformation().getMaterial().equals(Material.WATER);
   }
 }
